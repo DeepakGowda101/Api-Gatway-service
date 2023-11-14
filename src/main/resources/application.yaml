@@ -21,8 +21,8 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: ADMIN
-          uri: lb://ADMIN
+        - id: ONBOARD-SERVICE
+          uri: lb://ONBOARD-SERVICE
           predicates:
             - Path=/onboard/**
 
